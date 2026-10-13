@@ -4,21 +4,25 @@
 
 Original contributions use the [MIT License](LICENSE). Third-party components retain their own terms; see [licensing](LICENSING.md) and [readiness](READINESS.md).
 
-## Download for Muse
+## Install in Muse
 
-The easiest route is to give Muse the [public repository link](https://github.com/Israelmusondaayliffe/muse-curiosity-kit) and ask it to download the kit. You do not need to use a terminal or download a ZIP yourself. Copy this into Muse:
+Give Muse the [public repository link](https://github.com/Israelmusondaayliffe/muse-curiosity-kit) and ask it to install the kit. Muse can download the files from the link, so you do not need to use a terminal or download a ZIP yourself. Copy this into Muse:
 
 ```text
-Download Muse Curiosity Kit from https://github.com/Israelmusondaayliffe/muse-curiosity-kit into a separate folder. Read its Muse setup instructions and explain how installation would work in my account. Do not change my existing skills or settings yet.
+Install Muse Curiosity Kit from https://github.com/Israelmusondaayliffe/muse-curiosity-kit. Download the kit, read its Muse setup instructions, and install all 26 skills and their supporting files in the skill folder my account uses. Preserve my existing skills, settings, instructions and memories. Verify that Muse can load the installed skills and their supporting files, then help me get started with Chief of Staff. If installation is blocked or existing files conflict, explain the specific issue and what remains unfinished.
 ```
 
-**ZIP option:** [Download the ZIP](https://github.com/Israelmusondaayliffe/muse-curiosity-kit/archive/refs/heads/main.zip). You can also open this page's **Code** menu and choose **Download ZIP**. If Muse cannot download files in your current session, download the ZIP yourself and attach it to Muse if your session supports file attachments. Ask Muse to unpack it in a separate folder and read the setup instructions.
+**ZIP option:** [Download the ZIP](https://github.com/Israelmusondaayliffe/muse-curiosity-kit/archive/refs/heads/main.zip), or open this page's **Code** menu and choose **Download ZIP**. If Muse cannot download files in your current session, download the ZIP yourself and attach it to Muse if your session supports file attachments. Include this request:
+
+```text
+Install Muse Curiosity Kit from this ZIP. Read its Muse setup instructions, and install all 26 skills and their supporting files in the skill folder my account uses. Preserve my existing skills, settings, instructions and memories. Verify that Muse can load the installed skills and their supporting files, then help me get started with Chief of Staff. If installation is blocked or existing files conflict, explain the specific issue and what remains unfinished.
+```
 
 ### Downloading versus installing
 
 **Downloading** saves a copy of the skill files. **Installing** puts those files where your Muse account loads skills, then checks that Muse can read each skill and its supporting files.
 
-Downloading, unpacking a ZIP or attaching it to a chat does not install the kit. When you are ready, ask Muse to install the downloaded kit while preserving your existing skills and settings. It should identify your account's actual skill folder, check for existing files before changing them, and verify that the new skills can load. The kit does not include an automatic Muse installer; see the [Muse setup guide](adapters/muse/README.md).
+The requests above ask Muse to complete both steps. If Muse only downloads, unpacks or reads the kit, installation is still unfinished. Attaching a ZIP supplies the files; the accompanying request tells Muse to install them. The kit does not include an automatic Muse installer, so Muse must use your account's actual skill folder and verify loading. See the [Muse setup guide](adapters/muse/README.md).
 
 ## Use in Muse
 
@@ -28,9 +32,9 @@ Use Muse's actual installed skill catalog. Select a skill by its technical name,
 
 > Use Writing Like Me to turn these notes into an article. Use the two supplied pieces as voice references, keep the argument mine and flag unsupported claims.
 
-A name appearing in a catalog does not establish that every support file or tool is accessible. Confirm the account's actual skill root and refresh behavior when installing or updating. This candidate supplies skill files; it does not provide a Muse plugin installer or change your host instructions, memory or existing work. Read the [Muse guide](adapters/muse/README.md).
+A name appearing in a catalog does not establish that every support file or tool is accessible. Muse should verify loading after installation. The [Muse setup guide](adapters/muse/README.md) explains how to choose the destination, preserve existing files and check access to the complete skills.
 
-Selecting a method does not authorize sending, publishing, installing, scheduling or changing an account. AI Film, Gauntlet, the Matt library, Operating Graph and ProofLoop require affirmative selection. Chief of Staff asks before choosing protected methods unless you already selected them. Quoted or incidental mentions do not activate work.
+Asking Muse to install the kit authorizes that installation. After setup, selecting a skill does not authorize unrelated sending, publishing, scheduling or account changes. AI Film, Gauntlet, the Matt library, Operating Graph and ProofLoop require affirmative selection. Chief of Staff asks before choosing protected methods unless you already selected them. Quoted or incidental mentions do not activate work.
 
 ## The skills
 
@@ -72,7 +76,7 @@ claude plugin marketplace add .
 claude plugin install muse-curiosity-kit@muse-curiosity-kit
 ```
 
-Check installation, enabled state and fresh skill loading separately. Hook registration, trust and observed execution are different states. No public repository URL is assumed.
+These commands install from a local checkout. Check installation, enabled state and fresh skill loading separately. Hook registration, trust and observed execution are different states.
 
 Build combined and standalone target packages with the existing builder:
 
