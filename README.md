@@ -4,6 +4,22 @@
 
 Original contributions use the [MIT License](LICENSE). Third-party components retain their own terms; see [licensing](LICENSING.md) and [readiness](READINESS.md).
 
+## Download for Muse
+
+The easiest route is to give Muse the [public repository link](https://github.com/Israelmusondaayliffe/muse-curiosity-kit) and ask it to download the kit. You do not need to use a terminal or download a ZIP yourself. Copy this into Muse:
+
+```text
+Download Muse Curiosity Kit from https://github.com/Israelmusondaayliffe/muse-curiosity-kit into a separate folder. Read its Muse setup instructions and explain how installation would work in my account. Do not change my existing skills or settings yet.
+```
+
+**ZIP option:** [Download the ZIP](https://github.com/Israelmusondaayliffe/muse-curiosity-kit/archive/refs/heads/main.zip). You can also open this page's **Code** menu and choose **Download ZIP**. If Muse cannot download files in your current session, download the ZIP yourself and attach it to Muse if your session supports file attachments. Ask Muse to unpack it in a separate folder and read the setup instructions.
+
+### Downloading versus installing
+
+**Downloading** saves a copy of the skill files. **Installing** puts those files where your Muse account loads skills, then checks that Muse can read each skill and its supporting files.
+
+Downloading, unpacking a ZIP or attaching it to a chat does not install the kit. When you are ready, ask Muse to install the downloaded kit while preserving your existing skills and settings. It should identify your account's actual skill folder, check for existing files before changing them, and verify that the new skills can load. The kit does not include an automatic Muse installer; see the [Muse setup guide](adapters/muse/README.md).
+
 ## Use in Muse
 
 Use Muse's actual installed skill catalog. Select a skill by its technical name, such as `chief-of-staff`, `writing-like-me` or `coding-studio`, then describe the result you want and the material it may use. Read the selected entry and supporting files from that skill's real directory.
