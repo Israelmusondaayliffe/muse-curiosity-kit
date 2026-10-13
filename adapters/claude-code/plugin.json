@@ -1,0 +1,15 @@
+{
+  "name": "muse-curiosity-kit",
+  "version": "0.1.0",
+  "description": "Muse Curiosity Kit: 26 independent skills with complete local methods and supporting resources.",
+  "author": {
+    "name": "Muse Curiosity Kit contributors"
+  },
+  "keywords": [
+    "skills",
+    "research",
+    "writing",
+    "muse"
+  ],
+  "skills": "./skills/"
+}

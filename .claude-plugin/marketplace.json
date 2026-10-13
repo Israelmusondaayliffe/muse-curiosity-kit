@@ -1,0 +1,13 @@
+{
+  "name": "muse-curiosity-kit",
+  "owner": {
+    "name": "Muse Curiosity Kit contributors"
+  },
+  "plugins": [
+    {
+      "name": "muse-curiosity-kit",
+      "source": "./plugins/claude-code/muse-curiosity-kit",
+      "description": "Muse Curiosity Kit: 26 independent skills with complete local methods and supporting resources."
+    }
+  ]
+}

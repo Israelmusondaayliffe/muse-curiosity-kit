@@ -1,0 +1,20 @@
+{
+  "name": "muse-curiosity-kit",
+  "interface": {
+    "displayName": "Muse Curiosity Kit"
+  },
+  "plugins": [
+    {
+      "name": "muse-curiosity-kit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex/muse-curiosity-kit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

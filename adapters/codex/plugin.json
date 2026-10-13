@@ -1,0 +1,29 @@
+{
+  "name": "muse-curiosity-kit",
+  "version": "0.1.0",
+  "description": "Muse Curiosity Kit: 26 independent skills with complete local methods and supporting resources.",
+  "author": {
+    "name": "Muse Curiosity Kit contributors"
+  },
+  "keywords": [
+    "skills",
+    "research",
+    "writing",
+    "muse"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Muse Curiosity Kit",
+    "shortDescription": "Independent skills for curious work",
+    "developerName": "Muse Curiosity Kit contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Help me choose a useful skill for this task.",
+      "Inspect this selected skill folder."
+    ]
+  }
+}
